@@ -1,0 +1,59 @@
+.hWrapper {
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  display: flex;
+  background: linear-gradient(
+    180deg,
+    rgba(24, 24, 24, 1) 0%,
+    rgb(39, 39, 39) 100%
+  );
+}
+
+.title {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid white; */
+  text-align: left;
+  font-family: "Chivo Mono", monospace;
+}
+.title h1 {
+  font-weight: 800;
+  font-size: 55px;
+  color: rgb(228, 252, 101);
+}
+.title h3 {
+  color: rgb(235, 235, 235);
+  font-weight: 500;
+  font-size: 40px;
+}
+.image {
+  width: 50%;
+  /* border: 1px solid #fff; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.arrow {
+  width: 35px;
+  fill: white;
+  position: absolute;
+  top: 90%;
+  left: 48%;
+  animation: arrow infinite 2s;
+}
+@keyframes arrow {
+  0% {
+    top: 90%;
+  }
+  50% {
+    top: 89%;
+  }
+  100% {
+    top: 90%;
+  }
+}
