@@ -8,19 +8,21 @@ export default function Home() {
     <>
       <Header />
       <div className="hWrapper">
-        <div className="title">
-          <h1>Hi , I am Yevhenii !</h1>
-          <h3>And i software engineer</h3>
-          <h3>
-            from <span className="underline">Ukraine</span>
-          </h3>
-          <Link className="titleBtn" to="/">
-            About Me
-          </Link>
-        </div>
-        <div className="image">
-          {/* must be image!! */}
-          image
+        <div className="aboutMe">
+          <div className="title">
+            <h1>Hi , I am Yevhenii !</h1>
+            <h3>And i software engineer</h3>
+            <h3>
+              from <span className="underline">Ukraine</span>
+            </h3>
+            <Link className="titleBtn" to="/aboutme">
+              About Me
+            </Link>
+          </div>
+          <div className="image">
+            {/* must be image!! */}
+            image
+          </div>
         </div>
       </div>
 

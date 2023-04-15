@@ -1,6 +1,6 @@
 .hWrapper {
   width: 100%;
-  min-height: 200vh;
+  min-height: 100vh;
   scroll-behavior: smooth;
   display: flex;
   background: linear-gradient(
@@ -8,6 +8,11 @@
     rgba(24, 24, 24, 1) 0%,
     rgb(39, 39, 39) 100%
   );
+}
+
+.aboutMe {
+  width: 100%;
+  display: flex;
 }
 
 .title {

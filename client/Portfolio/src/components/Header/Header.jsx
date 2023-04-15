@@ -11,7 +11,7 @@ export default function Header() {
           <Link className="navLink solid" to="/">
             Home
           </Link>
-          <Link className="navLink" to="/">
+          <Link className="navLink" to="/aboutme">
             About Me
           </Link>
           <Link className="navLink" to="/">

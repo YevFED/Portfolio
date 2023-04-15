@@ -1,0 +1,11 @@
+.aWrapper {
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  display: flex;
+  background: linear-gradient(
+    180deg,
+    rgba(24, 24, 24, 1) 0%,
+    rgb(39, 39, 39) 100%
+  );
+}
