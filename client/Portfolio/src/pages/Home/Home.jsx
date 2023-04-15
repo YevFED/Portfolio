@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -10,13 +11,19 @@ export default function Home() {
         <div className="title">
           <h1>Hi , I am Yevhenii !</h1>
           <h3>And i software engineer</h3>
-          <h3>from Ukraine</h3>
+          <h3>
+            from <span className="underline">Ukraine</span>
+          </h3>
+          <Link className="titleBtn" to="/">
+            About Me
+          </Link>
         </div>
         <div className="image">
           {/* must be image!! */}
           image
         </div>
       </div>
+
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 384 512"

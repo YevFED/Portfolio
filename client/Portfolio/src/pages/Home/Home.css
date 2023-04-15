@@ -1,6 +1,6 @@
 .hWrapper {
   width: 100%;
-  min-height: 100vh;
+  min-height: 200vh;
   scroll-behavior: smooth;
   display: flex;
   background: linear-gradient(
@@ -31,8 +31,34 @@
   font-weight: 500;
   font-size: 40px;
 }
+.title span {
+  text-decoration: 0px underline;
+  text-underline-offset: 7px;
+  text-decoration-color: rgb(227, 252, 101);
+}
+.titleBtn {
+  margin-top: 20px;
+  border-radius: 10px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  border: 0.5px solid #fff;
+  transition: 0.3s all linear;
+}
+.titleBtn:hover {
+  border: 0.5px solid rgb(228, 252, 101);
+  background-color: rgb(228, 252, 101);
+  color: black;
+  transition: 0.3s all linear;
+  font-weight: 800;
+}
 .image {
   width: 50%;
+  height: 100vh;
   /* border: 1px solid #fff; */
   display: flex;
   justify-content: center;
