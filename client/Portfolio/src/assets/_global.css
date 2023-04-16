@@ -1,0 +1,10 @@
+.wrapper {
+  width: 100%;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  background: linear-gradient(
+    180deg,
+    rgba(24, 24, 24, 1) 0%,
+    rgb(44, 44, 44) 100%
+  );
+}
