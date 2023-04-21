@@ -1,0 +1,37 @@
+.flexBox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.pageTitle {
+  width: 100%;
+}
+
+.title {
+  color: white;
+  font-family: "Chivo Mono", monospace;
+  font-size: 50px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.coloredTitle {
+  color: rgb(228, 252, 101);
+  text-align: center;
+  text-decoration: 0.5px underline;
+  text-underline-offset: 5px;
+}
+
+.cardTable {
+  padding-top: 100px;
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 500px 500px;
+  gap: 50px;
+}

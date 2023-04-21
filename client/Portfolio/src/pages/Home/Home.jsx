@@ -1,30 +1,30 @@
 import React from "react";
-import "./Home.css";
+import style from "./Home.module.css";
 import { Link } from "react-router-dom";
-import { Arrrow } from "../../assets/Arrrow";
-import "../../assets/_global.css";
+import { Arrow } from "../../assets/Arrow";
+import global from "../../assets/styles/_global.module.css";
 
 export default function Home() {
   return (
     <>
-      <div className="wrapper">
-        <div className="aboutMe">
-          <div className="title">
+      <div className={global.wrapper}>
+        <div className={style.aboutMe}>
+          <div className={style.title}>
             <h1>Hi , I am Yevhenii !</h1>
             <h3>And i software engineer</h3>
             <h3>
-              from <span className="underline">Ukraine</span>
+              from <span className={style.underline}>Ukraine</span>
             </h3>
-            <Link className="titleBtn" to="/aboutme">
+            <Link className={style.titleBtn} to="/aboutme">
               About Me
             </Link>
           </div>
-          <div className="image">
+          <div className={style.image}>
             {/* must be image!! */}
             image
           </div>
         </div>
-        <Arrrow className="arrow" />
+        <Arrow className={style.arrow} />
         <main>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis eum
           obcaecati repellat officia, doloremque tenetur!

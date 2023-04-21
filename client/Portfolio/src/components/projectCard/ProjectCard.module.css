@@ -1,0 +1,57 @@
+.card {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+.imageBox {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
+
+.bottomBlock {
+  width: 70%;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.cardTitle {
+  font-family: "Chivo Mono", monospace;
+  font-size: 17px;
+  font-weight: 500;
+  color: white;
+}
+
+.cardBtn {
+  border-radius: 10px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  color: white;
+  font-size: 17px;
+  border: 0.2px solid #fff;
+  transition: 0.2s all linear;
+  font-family: "Chivo Mono", monospace;
+}
+.cardBtn:hover {
+  border: 0.2px solid rgb(228, 252, 101);
+  background-color: rgb(228, 252, 101);
+  color: black;
+  transition: 0.2s all linear;
+  font-weight: 800;
+  font-family: "Chivo Mono", monospace;
+}
