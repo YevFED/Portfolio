@@ -33,5 +33,9 @@ const cardData = [
     title: "Portfolio",
     image: image,
   },
+  {
+    title: "Portfolio",
+    image: image,
+  },
 ];
 export default cardData;
