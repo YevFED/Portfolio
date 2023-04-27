@@ -4,38 +4,42 @@ const cardData = [
   {
     title: "Portfolio Web",
     image: image,
+    id: 1,
   },
   {
     title: "Portf",
     image: image,
-  },
-  {
-    title: "Portfolio",
-    image: image,
-  },
-  {
-    title: "Portfolio",
-    image: image,
+    id: 2,
   },
   {
     title: "Portfolio Web",
     image: image,
+    id: 1,
   },
   {
     title: "Portf",
     image: image,
+    id: 2,
   },
   {
-    title: "Portfolio",
+    title: "Portfolio Web",
     image: image,
+    id: 1,
   },
   {
-    title: "Portfolio",
+    title: "Portf",
     image: image,
+    id: 2,
   },
   {
-    title: "Portfolio",
+    title: "Portfolio Web",
     image: image,
+    id: 1,
+  },
+  {
+    title: "Portf",
+    image: image,
+    id: 2,
   },
 ];
 export default cardData;

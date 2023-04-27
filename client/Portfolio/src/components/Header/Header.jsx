@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
-    <div className="header">
-      <div className="hwrapper">
+    <header className="header">
+      <div className="hWrapper">
         <nav className="navigation">
           <Link className="navLink solid" to="/">
             Home
@@ -14,7 +14,7 @@ export default function Header() {
           <Link className="navLink" to="/aboutme">
             About Me
           </Link>
-          <Link className="navLink" to="/">
+          <Link className="navImage logo" to="/">
             <img src={logo} alt="Logo" width={75} />
           </Link>
           <Link className="navLink" to="/my-projects">
@@ -25,6 +25,6 @@ export default function Header() {
           </Link>
         </nav>
       </div>
-    </div>
+    </header>
   );
 }

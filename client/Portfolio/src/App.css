@@ -6,3 +6,25 @@
   border: 0;
   text-decoration: none;
 }
+
+/* body::-webkit-scrollbar {
+  width: 10px; 
+  background: linear-gradient(
+    180deg,
+    rgba(24, 24, 24, 1) 0%,
+    rgb(44, 44, 44) 100%
+  );
+}
+
+body::-webkit-scrollbar-button {
+  height: 30vh;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.334);
+  border-radius: 30px;
+} */
+
+::-webkit-scrollbar {
+  display: none;
+}
