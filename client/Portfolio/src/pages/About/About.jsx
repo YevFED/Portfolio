@@ -1,5 +1,6 @@
 import style from "./About.module.css";
 import global from "../../assets/styles/_global.module.css";
+import { Arrow } from "../../assets/Arrow";
 
 export default function About() {
   return (
@@ -28,6 +29,7 @@ export default function About() {
             i was make to much and i'm a big Developer in my mind <br />
           </p>
         </div>
+        <Arrow />
         <div
           className={style.textBlock}
           style={{

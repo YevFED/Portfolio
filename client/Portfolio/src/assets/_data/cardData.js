@@ -1,4 +1,4 @@
-import image from "../../assets/_data/img/cardImage.png";
+import image from "../../assets/img/cardImage.png";
 
 const cardData = [
   {

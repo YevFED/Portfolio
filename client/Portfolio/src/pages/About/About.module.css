@@ -4,8 +4,7 @@
   display: flex;
   flex-direction: column;
   font-family: "Chivo Mono", monospace;
-  justify-content: start;
-  padding-top: 150px;
+  justify-content: center;
   padding-left: 100px;
   gap: 20px;
 }
