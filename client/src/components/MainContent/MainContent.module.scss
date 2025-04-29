@@ -1,31 +1,31 @@
 .wrapper {
   width: 100vw;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 100px);
 
   display: flex;
   .leftSide {
     width: 50vw;
     display: flex;
-    margin-top: 250px;
+    margin-top: 225px;
     flex-direction: column;
     align-items: start;
     padding-left: 150px;
 
     .staticText {
-      font-size: 100px;
+      font-size: 60px;
       font-weight: 900;
       color: white;
       text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.475);
     }
     .typingText {
-      font-size: 100px;
+      font-size: 75px;
       white-space: nowrap;
       overflow: hidden;
       display: inline-block;
       font-weight: 700;
       color: #386fa4;
       text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.475);
-      letter-spacing: 5px;
+      letter-spacing: 2px;
     }
 
     .cursor {
@@ -36,14 +36,14 @@
     }
 
     .button {
-      padding: 30px 50px;
+      padding: 30px 40px;
       color: white;
       text-decoration: none;
-      font-size: 40px;
+      font-size: 30px;
       border: 1px solid #91e5f6;
       font-weight: 500;
-      margin-top: 100px;
-      border-radius: 50px;
+      margin-top: 175px;
+      border-radius: 30px;
       transition: 0.3s ease-in-out;
     }
     .button:hover {
@@ -64,13 +64,13 @@
     align-items: center;
     justify-content: center;
     .imageBlock {
-      width: 900px;
-      height: 900px;
+      width: 700px;
+      height: 700px;
       border-radius: 50%;
       background-color: #21517d;
       box-shadow: 20px 30px 10px 0px rgb(18, 97, 157),
-        -50px 50px 10px 0px rgba(37, 77, 147, 0.607),
-        -100px -100px 10px 0px rgba(27, 75, 178, 0.311);
+        -30px 50px 10px 0px rgba(37, 77, 147, 0.607),
+        -70px -70px 10px 0px rgba(27, 75, 178, 0.311);
       display: flex;
       align-items: center;
       justify-content: center;
