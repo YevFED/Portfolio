@@ -10,29 +10,30 @@
     flex-direction: column;
     align-items: start;
     padding-left: 150px;
+    .textBlock {
+      .staticText {
+        font-size: 90px;
+        font-weight: 900;
+        color: white;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.475);
+      }
+      .typingText {
+        font-size: 75px;
+        white-space: nowrap;
+        overflow: hidden;
+        display: inline-block;
+        font-weight: 700;
+        color: #386fa4;
+        text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.475);
+        letter-spacing: 2px;
+      }
 
-    .staticText {
-      font-size: 60px;
-      font-weight: 900;
-      color: white;
-      text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.475);
-    }
-    .typingText {
-      font-size: 75px;
-      white-space: nowrap;
-      overflow: hidden;
-      display: inline-block;
-      font-weight: 700;
-      color: #386fa4;
-      text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.475);
-      letter-spacing: 2px;
-    }
-
-    .cursor {
-      display: inline-block;
-      animation: blink 0.7s step-start infinite;
-      color: #386fa4;
-      font-weight: bold;
+      .cursor {
+        display: inline-block;
+        animation: blink 0.7s step-start infinite;
+        color: #386fa4;
+        font-weight: bold;
+      }
     }
 
     .button {
@@ -42,12 +43,12 @@
       font-size: 30px;
       border: 1px solid #91e5f6;
       font-weight: 500;
-      margin-top: 175px;
+      margin-top: 100px;
       border-radius: 30px;
       transition: 0.3s ease-in-out;
     }
     .button:hover {
-      background-color: #386fa4;
+      background-color: #25517b;
       border-radius: 15px;
     }
 

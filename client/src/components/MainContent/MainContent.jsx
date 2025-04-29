@@ -31,11 +31,14 @@ const MainContent = () => {
   return (
     <div className={styles.wrapper}>
       <div className={styles.leftSide}>
-        <p className={styles.staticText}>Hello , I'm</p>
-        <div className={styles.typingText}>
-          {displayedText}
-          <span className={styles.cursor}>|</span>
+        <div className={styles.textBlock}>
+          <p className={styles.staticText}>Hello , I'm</p>
+          <div className={styles.typingText}>
+            {displayedText}
+            <span className={styles.cursor}>|</span>
+          </div>
         </div>
+
         <a className={styles.button} href="#MySkills">
           More Info about me
         </a>
