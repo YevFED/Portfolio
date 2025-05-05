@@ -1,5 +1,10 @@
 .wrapper {
   width: 100vw;
   min-height: 100vh;
-  background-color: #133c55;
+  background: #1a5370;
+  background: linear-gradient(
+    325deg,
+    rgba(26, 83, 112, 1) 0%,
+    rgba(5, 52, 79, 1) 100%
+  );
 }

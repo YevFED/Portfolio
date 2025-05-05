@@ -39,7 +39,7 @@ const MainContent = () => {
           </div>
         </div>
 
-        <a className={styles.button} href="#MySkills">
+        <a className={styles.button} href="#about">
           More Info about me
         </a>
       </div>

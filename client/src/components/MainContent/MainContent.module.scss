@@ -1,7 +1,6 @@
 .wrapper {
   width: 100vw;
   height: calc(100vh - 100px);
-
   display: flex;
   .leftSide {
     width: 50vw;
@@ -68,7 +67,12 @@
       width: 700px;
       height: 700px;
       border-radius: 50%;
-      background-color: #21517d;
+      background: #1a5370;
+      background: linear-gradient(
+        325deg,
+        rgba(26, 83, 112, 1) 0%,
+        rgba(5, 52, 79, 1) 100%
+      );
       box-shadow: 20px 30px 10px 0px rgb(18, 97, 157),
         -30px 50px 10px 0px rgba(37, 77, 147, 0.607),
         -70px -70px 10px 0px rgba(27, 75, 178, 0.311);
@@ -76,6 +80,7 @@
       align-items: center;
       justify-content: center;
       overflow: hidden;
+
       .image {
         border-radius: 50%;
         object-fit: cover;

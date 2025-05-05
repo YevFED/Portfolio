@@ -1,0 +1,60 @@
+.wrapper {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #133c55;
+  display: flex;
+  flex-direction: column;
+  .aboutTitle {
+    font-size: 60px;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.479);
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+
+  .aboutDescBlock {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 200px;
+    .aboutDescStart {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 200px;
+      margin-bottom: 200px;
+      .descStartBlock {
+        width: 600px;
+        height: 300px;
+        padding: 20px 30px;
+        border-radius: 20px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid white;
+        background: #103242;
+        background: linear-gradient(
+          132deg,
+          rgb(16, 73, 100) 0%,
+          rgb(19, 60, 80) 100%
+        );
+        .descText {
+          color: white;
+          font-size: 35px;
+          text-align: center;
+          word-wrap: break-word;
+        }
+      }
+      .descQuestion {
+        font-size: 70px;
+        color: white;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+      }
+    }
+  }
+}
